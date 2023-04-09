@@ -204,6 +204,11 @@ a {
 
 .locations a {
   color: #f9744e;
+  transition: all 0.2s ease;
+}
+
+.locations a:hover {
+  color: #fc977a;
 }
 
 .locations .list-locations {
