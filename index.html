@@ -27,7 +27,7 @@
       <div class="info-shop">
         <div class="container">
           <div class="my-info-shop">
-            <p class="tel"><i class="fa-solid fa-phone-flip"></i>+098.765.4321</p>
+            <p class="tel"><i class="fa-solid fa-mobile-screen"></i></i>+098.765.4321</p>
             <p class="email"><i class="fa-solid fa-envelope"></i>example@gmail.com</p>
           </div>
         </div>
@@ -41,9 +41,9 @@
         </a>
         <ul>
           <li><a href="#">HOME</a></li>
-          <li><a href="#">OUR COFFEE</a></li>
           <li><a href="#">SHOP</a></li>
-          <li><a href="#">LOCATIONS</a></li>
+          <li><a href="#location">LOCATIONS</a></li>
+          <li><a href="#our-coffee">OUR COFFEE</a></li>
         </ul>
         <div class="action">
           <a href="#">LOGIN</a>
@@ -65,52 +65,54 @@
           <h1 class="title">Coffee Shop & In-house Roastery</h1>
           <p class="desc">" We have all perfect coffee in the world "</p>
         </div>
-      </div>
-      <!-- list sản phẩm -->
-      <div class="list-product">
-        <div class="container">
-          <div class="list">
-            <!-- item 1 -->
+        <div class="products">
+          <div class="container">
             <div class="item">
-              <img src="./assets/image/products/item-1.png" alt="item 1"
-                class="thumb">
-              <div class="info">
-                <h2 class="sub-title">HOUSE ROAST</h2>
-                <div class="desc">
-                  <p>100.000 đ</p>
+              <img src="./assets/image/products/item-1.png" alt="product 1">
+              <div class="body">
+                <h3 class="sub-title">HOUSE ROAST DECAF</h3>
+                <div class="body-info">
+                  <p>100.000đ</p>
                   <a href="#" class="btn">Add To Cart</a>
                 </div>
               </div>
             </div>
-            <!-- item 2 -->
             <div class="item">
-              <img src="./assets/image/products/item-2.png" alt="item 1"
-                class="thumb">
-              <div class="info">
-                <h2 class="sub-title">HOUSE DECAF</h2>
-                <div class="desc">
-                  <p>100.000 đ</p>
+              <img src="./assets/image/products/item-2.png" alt="product 1">
+              <div class="body">
+                <h3 class="sub-title">HOUSE ROAST DECAF</h3>
+                <div class="body-info">
+                  <p>100.000đ</p>
                   <a href="#" class="btn">Add To Cart</a>
                 </div>
               </div>
             </div>
-            <!-- item 3 -->
             <div class="item">
-              <img src="./assets/image/products/item-3.png" alt="item 1"
-                class="thumb">
-              <div class="info">
-                <h2 class="sub-title">FAMOUS ROAST DECAF</h2>
-                <div class="desc">
-                  <p>100.000 đ</p>
+              <img src="./assets/image/products/item-3.png" alt="product 1">
+              <div class="body">
+                <h3 class="sub-title">HOUSE ROAST DECAF</h3>
+                <div class="body-info">
+                  <p>100.000đ</p>
+                  <a href="#" class="btn">Add To Cart</a>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <img src="./assets/image/products/item-4.png" alt="product 1">
+              <div class="body">
+                <h3 class="sub-title">HOUSE ROAST DECAF</h3>
+                <div class="body-info">
+                  <p>100.000đ</p>
                   <a href="#" class="btn">Add To Cart</a>
                 </div>
               </div>
             </div>
           </div>
         </div>
+        <div class="box"></div>
       </div>
       <!-- list địa điểm bán cà phê -->
-      <div class="locations">
+      <div id="location" class="locations">
         <div class="container">
           <div class="info">
             <h2 class="title">Our coffee shop locations</h2>
@@ -163,7 +165,7 @@
         </div>
       </div>
       <!-- list loại đồ uống -->
-      <div class="our-coffee">
+      <div id="our-coffee" class="our-coffee">
         <div class="container">
           <div class="head">
             <h2 class="title">GET TO KNOW OUR COFFEE'S</h2>
@@ -198,7 +200,47 @@
         </div>
       </div>
       <!-- phần banner ứng dụng -->
-
+      <div class="banner-coffee">
+        <div class="container">
+          <div class="image">
+            <img src="./assets/image/banner.png" alt="banner">
+          </div>
+          <div class="info">
+            <h2 class="title">MORE THAN JUST A SUPPLIER, WE'RE YOUR BUSINESS
+              PARTNER
+            </h2>
+            <p class="desc">
+              We're here to support your coffee business, whether you are an
+              independent cafe or chain, we have the team and infrastructure to
+              back you up.
+            </p>
+            <a href="#" class="btn">APPLY TO BE A WHOLESALE PARTNER</a>
+          </div>
+        </div>
+      </div>
     </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="my-info">
+          <h3 class="sub-title">My information</h3>
+          <p class="tel"><i class="fa-solid fa-phone-flip"></i>+098.765.4321</p>
+          <p><i class="fa-solid fa-envelope"></i>Email: example@gmail.com</p>
+          <p><i class="fa-brands fa-tiktok"></i>TikTok: example.ptb</p>
+        </div>
+        <div class="social">
+          <h3 class="sub-title">Social</h3>
+          <div class="icon">
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-pinterest-p"></i>
+          </div>
+        </div>
+        <div class="me">
+          <div class="sub-title">Người làm sản phẩm</div>
+          <p>PHẠM TUẤN BÌNH</p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
