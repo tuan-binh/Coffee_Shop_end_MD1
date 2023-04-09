@@ -173,34 +173,123 @@ a {
   justify-content: space-between;
 }
 
+/* locations */
+
 .locations {
   padding: 250px 0 70px;
   background: #1b504c;
   color: #fff;
 }
 
+.locations .info .title {
+  font-size: 4rem;
+}
+
+.locations .desc {
+  margin: 10px 0 10px;
+  color: #ccc;
+}
+
 .locations a {
   color: #f9744e;
 }
 
-.locations .container {
-  display: flex;
-}
-
-.locations .col-50 {
-  width: 50%;
-}
-
 .locations .list-locations {
+  margin-top: 70px;
   display: flex;
-  flex-direction: column;
+  gap: 20px;
 }
 
 .locations .locaItem {
+  width: calc(100% / 3);
+}
+
+.locaItem .body {
+  padding-left: 20px;
+}
+
+.locaItem .sub-title {
+  font-size: 2.3rem;
+  margin-top: 7px;
+}
+
+.locaItem img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+/* list đồ uống */
+
+.our-coffee {
+  padding: 70px 0;
+}
+
+.our-coffee .container {
+  background: #fcdad1;
+  border-radius: 15px;
+  padding: 50px;
+}
+
+.our-coffee .head {
+  text-align: center;
+}
+
+.our-coffee .title {
+  font-size: 4rem;
+  margin-bottom: 10px;
+}
+
+.our-coffee .desc {
+  color: #6c6c6c;
+}
+
+.our-coffee .list-drinks {
+  padding: 40px;
+  display: flex;
+  gap: 40px;
+}
+
+.list-drinks .item {
+  width: calc(100% / 4);
+  text-align: center;
+}
+
+.list-drinks .item .sub-desc {
+  margin-top: 7px;
+  font-size: 2.2rem;
+}
+
+.our-coffee .action {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.our-coffee .btn {
+  background: #1b504c;
+}
+
+.our-coffee .btn:hover {
+  opacity: 0.8;
+}
+
+.subscription {
+  /* position: relative; */
+  background: orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subscription .item {
   display: flex;
 }
 
-.locations img {
+.subscription .thumb {
   width: 100%;
-  object-fit: cover;
+  /* position: absolute; */
+}
+
+.subscription .col-50 {
+  width: 500px;
 }
