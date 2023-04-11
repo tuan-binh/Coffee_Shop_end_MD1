@@ -120,7 +120,7 @@ a {
 
 .banner-video .info {
   position: absolute;
-  top: 20%;
+  top: 30%;
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
@@ -128,7 +128,7 @@ a {
 }
 
 .banner-video .title {
-  font-size: 6rem;
+  font-size: 7rem;
 }
 .banner-video .desc {
   margin-top: 20px;
@@ -149,6 +149,7 @@ a {
   bottom: 0;
   z-index: 0;
   background: #1b504c;
+  /* background: #fff; */
   height: 250px;
   width: 100%;
 }
@@ -188,7 +189,7 @@ a {
 
 .locations {
   /* margin-top: 250px 0 0; */
-  padding: 150px 0 70px;
+  padding: 100px 0 70px;
   background: #1b504c;
   color: #fff;
 }

@@ -1,0 +1,40 @@
+.ourCoffee .list-coffee {
+  display: flex;
+}
+
+.list-coffee .head {
+  display: flex;
+  flex-direction: column;
+}
+
+.list-coffee .thumb {
+  width: 150px;
+  padding: 12px 37px;
+  margin: 5px;
+  object-fit: cover;
+}
+
+.active {
+  background: #15807a;
+  border-radius: 8px;
+}
+
+.list-coffee .body {
+}
+
+.list-coffee .body-item {
+  display: none;
+}
+
+.body-item .col-50 {
+  width: 50%;
+}
+
+.body-item.action-item {
+  display: flex;
+  background: #efede6;
+  margin-left: 20px;
+  height: 100%;
+  align-items: center;
+  border-radius: 8px;
+}
