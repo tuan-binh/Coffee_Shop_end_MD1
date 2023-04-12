@@ -1,16 +1,16 @@
-const $ = document.querySelector.bind(document);
-const $$ = document.querySelectorAll.bind(document);
+let thumbs = document.querySelectorAll(".thumb");
 
-const thumbs = $$(".thumb");
-const bodyItems = $$(".body-item");
+let bodyItems = document.querySelectorAll(".body-item");
 
-thumbs.forEach((element, index) => {
-  let info = bodyItems[index];
-  element.onclick = () => {
-    $(".thumb.active").classList.remove("active");
-    $(".body-item.active-item").classList.remove("active-item");
+thumbs.forEach(function (e, i) {
+  let tab = bodyItems[i];
+  e.onclick = function () {
+    let activeImage = document.querySelector(".thumb.active");
+    let activeContent = document.querySelector(".body-item.action-item");
+    activeImage.classList.remove("active");
+    activeContent.classList.remove("action-item");
 
-    this.classList.add("active");
-    info.classList.add("active-item");
+    e.classList.add("active");
+    tab.classList.add("action-item");
   };
 });

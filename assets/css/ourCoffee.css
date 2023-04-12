@@ -1,3 +1,14 @@
+.ourCoffee .title {
+  margin-top: 100px;
+  font-size: 5rem;
+  color: #0c504c;
+}
+
+.ourCoffee .desc {
+  margin: 20px 0 70px;
+  color: #467a77;
+}
+
 .ourCoffee .list-coffee {
   display: flex;
 }
@@ -12,6 +23,7 @@
   padding: 12px 37px;
   margin: 5px;
   object-fit: cover;
+  /* transition: all 0.3s ease; */
 }
 
 .active {
@@ -24,6 +36,18 @@
 
 .list-coffee .body-item {
   display: none;
+  padding: 50px;
+  /* transition: all 0.3s ease; */
+}
+
+.list-coffee .body-item .sub-title {
+  font-size: 3.5rem;
+}
+
+.list-coffee .body-item .sub-desc {
+  margin-top: 20px;
+  font-size: 1.7rem;
+  color: #484848;
 }
 
 .body-item .col-50 {
