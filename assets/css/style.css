@@ -120,7 +120,7 @@ a {
 
 .banner-video .info {
   position: absolute;
-  top: 30%;
+  top: 15%;
   left: 50%;
   transform: translateX(-50%);
   text-align: center;

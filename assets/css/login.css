@@ -1,0 +1,24 @@
+body {
+  font-family: "Fjalla One", sans-serif;
+}
+
+main {
+  position: relative;
+}
+
+main video {
+  width: 100%;
+  height: 99.7vh;
+  object-fit: cover;
+}
+
+.login {
+  background: #fff;
+  position: absolute;
+  top: 80px;
+  left: 80px;
+  bottom: 80px;
+  width: 30%;
+  padding: 80px;
+  border-radius: 12px;
+}
