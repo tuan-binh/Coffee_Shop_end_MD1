@@ -106,7 +106,9 @@ a {
 .navbar .carts {
   margin-left: 10px;
 }
-/* banner video */
+
+/*========== banner video =========*/
+
 .banner-video {
   position: relative;
 }
@@ -156,33 +158,59 @@ a {
 
 .products .container {
   display: flex;
-  gap: 70px;
+  /* gap: 40px; */
   background: #15807a;
   border-radius: 10px;
   padding: 10px;
+  margin-bottom: 100px;
 }
 
-.products .item {
-  width: calc(100% / 4);
-  background: #fff;
-  padding: 5px 15px;
+.products .block-img {
+  width: 40%;
+}
+
+.block-img img {
+  display: block;
+  width: 100%;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.products .body-info {
+  color: #1b504c;
+  width: 60%;
+  padding-left: 40px;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.745), #15807b00);
+}
+
+.body-info .sub-title {
+  margin-top: 30px;
+  font-size: 4rem;
+}
+
+.body-info .sub-desc {
+  font-size: 2rem;
+  padding: 30px 0;
+  line-height: 1.5;
+}
+
+.body-info .more {
+  color: #fff;
+  margin-top: 30px;
+  text-align: center;
+  display: inline-block;
+  background: #15807a;
+  padding: 15px 20px;
   border-radius: 6px;
 }
 
-.item img {
-  width: 100%;
+.body-info .more i {
+  display: none;
+  margin-left: 5px;
 }
 
-.item .sub-title {
-  text-align: center;
-  font-size: 1.7rem;
-}
-
-.item .body-info {
-  margin-top: 6px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.body-info .more:hover i {
+  display: inline-block;
 }
 
 /* locations */

@@ -50,3 +50,15 @@
   justify-content: space-around;
   align-items: center;
 }
+
+.products-body .container {
+  display: flex;
+}
+
+.products-body .item {
+  width: calc(100% / 3);
+}
+
+.item .thumb {
+  width: 100%;
+}
