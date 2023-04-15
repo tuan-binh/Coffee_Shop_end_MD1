@@ -33,9 +33,6 @@
   border-radius: 8px;
 }
 
-.list-coffee .body {
-}
-
 .list-coffee .body-item {
   display: none;
   padding: 50px;
@@ -83,42 +80,42 @@
   font-size: 2rem;
 }
 
-.location-inCoffee .list {
+.location-inCoffee .list1 {
   display: flex;
   gap: 20px;
 }
 
-.list .item-coffee {
+.list1 .item-coffee {
   width: calc(100% / 3);
 }
 
-.list .thumbs {
+.list1 .thumbs {
   display: block;
   width: 100%;
   height: 210px;
   object-fit: cover;
 }
 
-.list .body {
+.list1 .body {
   background: #fff;
   padding: 15px;
   color: #6c8e8b;
 }
 
-.list .sub-title {
+.list1 .sub-title {
   font-size: 2.6rem;
 }
 
-.list .desc {
+.list1 .desc {
   padding: 15px 0;
   line-height: 1.3;
 }
 
-.list .icon {
+.list1 .icon {
   margin-bottom: 7px;
 }
 
-.list .icon:hover {
+.list1 .icon:hover {
   cursor: pointer;
 }
 

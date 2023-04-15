@@ -428,3 +428,64 @@ a {
 .me p {
   color: #f9744e;
 }
+
+/* ========== modal carts ========== */
+
+.modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.568);
+  z-index: 3;
+}
+
+.cart {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  width: 500px;
+  height: 100vh;
+  margin-left: auto;
+}
+
+.cart .head {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  background: #15807a;
+  padding: 20px 30px;
+  font-size: 2.5rem;
+}
+
+.list {
+  flex: 1;
+  background: #ccc;
+  padding: 13px;
+}
+
+.totalCoin {
+  padding: 20px 20px;
+  background: #15807a;
+}
+
+.total {
+  color: #fff;
+  /* margin: 10px 20px; */
+  padding: 10px 20px;
+  background: #0c504c;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 8px;
+}
+
+.totalCoin button {
+  font-size: 1.5rem;
+  margin-top: 15px;
+  display: block;
+  width: 100%;
+  padding: 8px 12px;
+  background: #f9744e;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+}

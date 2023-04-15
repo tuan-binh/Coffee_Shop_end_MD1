@@ -3,45 +3,39 @@ let desc = `A deliciously smooth coffee made from speciality Arabica beans from 
 let listProduct = [
   {
     name: "HOUSE ROAST DECAF",
-    src: "../image/products/item-1.png",
+    src: "/assets/image/products/item-1.png",
     desc: desc,
     price: 100000,
-    quantity: 0,
   },
   {
     name: "FAMOUS ROAST DECAF",
-    src: "../image/products/item-2.png",
+    src: "/assets/image/products/item-2.png",
     desc: desc,
     price: 110000,
-    quantity: 0,
   },
   {
     name: "CHARACTER ROAST DECAF",
-    src: "../image/products/item-3.png",
+    src: "/assets/image/products/item-3.png",
     desc: desc,
     price: 120000,
-    quantity: 0,
   },
   {
     name: "CHARACTER ROAST",
-    src: "../image/products/item-4.png",
+    src: "/assets/image/products/item-4.png",
     desc: desc,
     price: 130000,
-    quantity: 0,
   },
   {
     name: "FAMOUS ROAST",
-    src: "../image/products/item-5.png",
+    src: "/assets/image/products/item-5.png",
     desc: desc,
     price: 140000,
-    quantity: 0,
   },
   {
     name: "HOUSE ROAST",
-    src: "../image/products/item-6.png",
+    src: "/assets/image/products/item-6.png",
     desc: desc,
     price: 150000,
-    quantity: 0,
   },
 ];
 
