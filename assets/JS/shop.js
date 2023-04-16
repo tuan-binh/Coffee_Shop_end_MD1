@@ -42,7 +42,7 @@ let listProduct = [
 console.log(listProduct);
 
 let list = document.querySelector(".products-body .container");
-
+// render list product
 render();
 function render() {
   let html = listProduct.map((e, i) => {

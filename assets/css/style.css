@@ -130,8 +130,9 @@ a {
 }
 
 .banner-video .title {
-  font-size: 7rem;
+  font-size: 6rem;
 }
+
 .banner-video .desc {
   margin-top: 20px;
   font-size: 2rem;
@@ -163,6 +164,7 @@ a {
   border-radius: 10px;
   padding: 10px;
   margin-bottom: 100px;
+  box-shadow: 0 14px 25px -2px rgba(0, 0, 0, 0.264);
 }
 
 .products .block-img {
@@ -498,6 +500,67 @@ a {
 
 .open {
   display: block;
+}
+
+/* item products */
+.modal-list li {
+  /* height: 150px; */
+  background: #fff;
+  border-radius: 10px;
+  display: flex;
+  margin-bottom: 13px;
+}
+
+.modal-list li .image {
+  padding: 20px;
+  width: 130px;
+}
+
+.modal-list .image img {
+  width: 100%;
+}
+
+.modal-list .body-info {
+  padding: 20px;
+}
+
+.body-info h3 {
+  font-size: 3rem;
+}
+
+.body-info .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.body-info .amount {
+  display: flex;
+  border: 2px solid #ccc;
+  border-radius: 999px;
+  margin-left: 80px;
+}
+
+.amount .number {
+  text-align: center;
+  width: 50px;
+  padding: 12px;
+}
+
+.amount i {
+  padding: 12px;
+  background: #ccc;
+}
+
+.amount i:first-child {
+  border-top-left-radius: 999px;
+  border-bottom-left-radius: 999px;
+}
+
+.amount i:last-child {
+  border-top-right-radius: 999px;
+  border-bottom-right-radius: 999px;
 }
 
 @keyframes cartFrame {
