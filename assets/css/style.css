@@ -446,6 +446,7 @@ a {
   width: 500px;
   height: 100vh;
   margin-left: auto;
+  animation: cartFrame 0.5s ease;
 }
 
 .cart .head {
@@ -457,10 +458,15 @@ a {
   font-size: 2.5rem;
 }
 
-.list {
+.cart .head .close {
+  color: #fff;
+}
+
+.modal-list {
   flex: 1;
   background: #ccc;
   padding: 13px;
+  overflow: auto;
 }
 
 .totalCoin {
@@ -488,4 +494,17 @@ a {
   color: #fff;
   border: none;
   border-radius: 8px;
+}
+
+.open {
+  display: block;
+}
+
+@keyframes cartFrame {
+  from {
+    transform: translate(300px);
+  }
+  to {
+    transform: translate(0);
+  }
 }
